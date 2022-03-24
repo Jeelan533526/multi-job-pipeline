@@ -1,0 +1,11 @@
+node {
+    stage('build job1){
+        build 'job1'
+    }
+    stage('build job2){
+        build 'job2'
+    }
+    stage('build job2){
+        build 'job2'
+    }
+}
